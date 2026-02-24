@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://aipeien.cn/sitemap.xml
+
+# Crawl-delay (optional, polite crawling)
+Crawl-delay: 1

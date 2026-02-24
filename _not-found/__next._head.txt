@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/2f236954d6a65e12.js"],"ViewportBoundary"]
+3:I[97367,["/_next/static/chunks/2f236954d6a65e12.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"rhvN69TUP7LFFWnCtB9RP","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"AI佩恩 - 发现最好用的AI工具 | aipeien.cn"}],["$","meta","1",{"name":"description","content":"精选全球优质AI工具，涵盖对话、绘画、写作、编程、视频、设计等分类，帮你找到最适合的AI助手。"}],["$","meta","2",{"name":"keywords","content":"AI工具,AI导航,AI佩恩,ChatGPT,AI绘画,AI写作,AI编程,人工智能"}]]}]}]}],null]}],"loading":null,"isPartial":false}
