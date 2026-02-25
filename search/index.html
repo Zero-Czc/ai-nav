@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>搜索AI工具 - AI佩恩</title>
+  <meta name="description" content="搜索AI佩恩收录的109+款AI工具" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://aipeien.cn/search/" />
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="搜索AI工具 - AI佩恩" />
+  <meta property="og:description" content="搜索AI佩恩收录的109+款AI工具" />
+</head>
+<body>
+  <h1>搜索AI工具</h1>
+  <input type="text" id="search" placeholder="输入工具名称..." />
+  <div id="results"></div>
+  
+  <script>
+    const tools = [
+      {name: "ChatGPT", url: "/tool/chatgpt/", category: "AI对话"},
+      {name: "Claude", url: "/tool/claude/", category: "AI对话"},
+      {name: "Gemini", url: "/tool/gemini/", category: "AI对话"},
+      {name: "DeepSeek", url: "/tool/deepseek/", category: "AI对话"},
+      {name: "Grok", url: "/tool/grok/", category: "AI对话"},
+      {name: "Perplexity", url: "/tool/perplexity/", category: "AI对话"},
+      {name: "Kimi", url: "/tool/kimi/", category: "AI对话"},
+      {name: "文心一言", url: "/tool/wenxinyiyan/", category: "AI对话"},
+      {name: "通义千问", url: "/tool/tongyi/", category: "AI对话"},
+      {name: "Cursor", url: "/tool/cursor/", category: "AI编程"},
+      {name: "Devin", url: "/tool/devin/", category: "AI编程"},
+      {name: "GitHub Copilot", url: "/tool/github-copilot/", category: "AI编程"},
+      {name: "Midjourney", url: "/tool/midjourney/", category: "AI绘画"},
+      {name: "DALL-E 3", url: "/tool/dall-e-3/", category: "AI绘画"},
+      {name: "Stable Diffusion", url: "/tool/stable-diffusion/", category: "AI绘画"},
+      {name: "Runway", url: "/tool/runway/", category: "AI视频"},
+      {name: "Suno", url: "/tool/suno/", category: "AI音乐"},
+      {name: "Manus", url: "/tool/manus/", category: "AI Agent"}
+    ];
+    
+    const search = document.getElementById('search');
+    const results = document.getElementById('results');
+    
+    search.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase();
+      if (q.length < 1) {
+        results.innerHTML = '';
+        return;
+      }
+      const matches = tools.filter(t => t.name.toLowerCase().includes(q));
+      results.innerHTML = matches.map(t => 
+        '<div><a href="' + t.url + '">' + t.name + '</a> - ' + t.category + '</div>'
+      ).join('');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>提交AI工具 - AI佩恩</title>
+  <meta name="description" content="推荐优秀的AI工具到AI佩恩" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://aipeien.cn/submit/" />
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="提交AI工具 - AI佩恩" />
+  <meta property="og:description" content="推荐优秀的AI工具到AI佩恩" />
+  
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 600px; margin: 50px auto; padding: 20px; }
+    input, textarea, select { width: 100%; padding: 10px; margin: 10px 0; }
+    button { background: #f59e0b; color: black; padding: 12px 24px; border: none; cursor: pointer; font-weight: bold; }
+    label { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>提交AI工具</h1>
+  <p>推荐你认为优秀的AI工具，我们会尽快审核</p>
+  
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <label>工具名称 *</label>
+    <input type="text" name="tool_name" required placeholder="例如：ChatGPT" />
+    
+    <label>官方网站 *</label>
+    <input type="url" name="tool_url" required placeholder="https://..." />
+    
+    <label>工具分类 *</label>
+    <select name="category">
+      <option value="AI对话">AI对话</option>
+      <option value="AI绘画">AI绘画</option>
+      <option value="AI视频">AI视频</option>
+      <option value="AI音乐">AI音乐</option>
+      <option value="AI编程">AI编程</option>
+      <option value="AI Agent">AI Agent</option>
+      <option value="AI写作">AI写作</option>
+      <option value="其他">其他</option>
+    </select>
+    
+    <label>简短描述 *</label>
+    <textarea name="description" rows="3" required placeholder="一句话描述这个工具的特点..."></textarea>
+    
+    <label>你的邮箱（选填，便于通知审核结果）</label>
+    <input type="email" name="email" placeholder="your@email.com" />
+    
+    <button type="submit">提交工具</button>
+  </form>
+  
+  <p style="margin-top:30px;color:#666;font-size:14px;">
+    提交代表同意我们审核后可能在网站上展示
+  </p>
+</body>
+</html>
