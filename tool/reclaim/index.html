@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reclaim.ai - AI 效率工具推荐 | AI佩恩</title>
+  <meta name="description" content="Reclaim.ai：AI日程管理工具，智能安排会议和专注时间。查看价格、功能、标签和同类工具对比。AI佩恩为你精选全球优质AI工具。" />
+  <meta name="keywords" content="Reclaim.ai,日程,会议,效率,AI 效率,AI工具,AI佩恩" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="AI佩恩" />
+  <link rel="canonical" href="https://aipeien.cn/tool/reclaim/" />
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://aipeien.cn/tool/reclaim/" />
+  <meta property="og:title" content="Reclaim.ai - AI 效率工具推荐" />
+  <meta property="og:description" content="AI日程管理工具，智能安排会议和专注时间" />
+  <meta property="og:site_name" content="AI佩恩" />
+  <meta property="og:locale" content="zh_CN" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Reclaim.ai - AI佩恩" />
+  <meta name="twitter:description" content="AI日程管理工具，智能安排会议和专注时间" />
+  
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Reclaim.ai",
+    "description": "AI日程管理工具，智能安排会议和专注时间",
+    "url": "https://reclaim.ai",
+    "applicationCategory": "AI 效率",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "description": "免费/Pro $10/月"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "451",
+      "bestRating": "5"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://aipeien.cn/"},
+      {"@type": "ListItem", "position": 2, "name": "AI 效率", "item": "https://aipeien.cn/#cat-productivity"},
+      {"@type": "ListItem", "position": 3, "name": "Reclaim.ai", "item": "https://aipeien.cn/tool/reclaim/"}
+    ]
+  }
+  </script>
+  
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #f3f4f6; -webkit-font-smoothing: antialiased; }
+    a { text-decoration: none; color: inherit; }
+    .container { max-width: 1024px; margin: 0 auto; padding: 0 1rem; }
+    .header { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid #1f2937; background: rgba(10,10,10,0.9); backdrop-filter: blur(12px); }
+    .header-inner { display: flex; height: 4rem; align-items: center; justify-content: space-between; max-width: 80rem; margin: 0 auto; padding: 0 1rem; }
+    .logo { display: flex; align-items: center; gap: 0.5rem; }
+    .logo-icon { font-size: 1.5rem; }
+    .logo-text { font-size: 1.25rem; font-weight: 700; color: white; }
+    .breadcrumb { display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: #6b7280; padding: 1.5rem 0; flex-wrap: wrap; }
+    .breadcrumb a { color: #9ca3af; transition: color 0.2s; }
+    .breadcrumb a:hover { color: white; }
+    .breadcrumb .sep { color: #374151; }
+    .breadcrumb .current { color: #fbbf24; }
+    .hero { padding: 2rem 0 3rem; }
+    .hero-top { display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem; }
+    .hero-emoji { font-size: 4rem; line-height: 1; }
+    .hero-info { flex: 1; }
+    .hero-title { font-size: 2rem; font-weight: 800; color: white; margin-bottom: 0.5rem; }
+    .hero-category { display: inline-block; background: #1f2937; color: #9ca3af; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; margin-bottom: 1rem; }
+    .hero-desc { font-size: 1.125rem; color: #9ca3af; line-height: 1.75; margin-bottom: 1.5rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; }
+    .tag { background: #1f2937; color: #d1d5db; padding: 0.25rem 0.75rem; border-radius: 0.5rem; font-size: 0.875rem; }
+    .price-box { display: inline-block; background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.3); color: #fbbf24; padding: 0.5rem 1rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 600; margin-bottom: 1.5rem; }
+    .cta-btn { display: inline-block; background: #f59e0b; color: black; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; font-size: 1rem; transition: all 0.2s; }
+    .cta-btn:hover { background: #fbbf24; transform: translateY(-1px); }
+    .featured-badge { display: inline-block; background: #f59e0b; color: black; padding: 0.125rem 0.5rem; border-radius: 0.25rem; font-size: 0.625rem; font-weight: 700; margin-left: 0.5rem; vertical-align: middle; }
+    .section { padding: 2rem 0; }
+    .section-title { font-size: 1.25rem; font-weight: 700; color: white; margin-bottom: 1.5rem; }
+    .grid { display: grid; gap: 1rem; grid-template-columns: repeat(1, 1fr); }
+    @media (min-width: 640px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    .card { display: flex; flex-direction: column; border-radius: 0.75rem; border: 1px solid #1f2937; background: #141414; padding: 1.25rem; transition: all 0.2s; }
+    .card:hover { border-color: #374151; background: #1a1a1a; transform: translateY(-2px); }
+    .card-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem; }
+    .card-emoji { font-size: 1.5rem; }
+    .card-name { font-size: 1rem; font-weight: 700; color: white; }
+    .card:hover .card-name { color: #fbbf24; }
+    .card-desc { flex: 1; font-size: 0.875rem; color: #9ca3af; line-height: 1.5; margin-bottom: 1rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .card-footer { display: flex; align-items: center; justify-content: space-between; }
+    .card-tags { display: flex; flex-wrap: wrap; gap: 0.375rem; }
+    .card-tag { background: #1f2937; color: #9ca3af; padding: 0.125rem 0.5rem; border-radius: 0.25rem; font-size: 0.6875rem; }
+    .card-price { font-size: 0.75rem; color: #6b7280; }
+    .info-grid { display: grid; gap: 1rem; grid-template-columns: repeat(2, 1fr); margin-bottom: 2rem; }
+    @media (min-width: 640px) { .info-grid { grid-template-columns: repeat(4, 1fr); } }
+    .info-card { background: #141414; border: 1px solid #1f2937; border-radius: 0.75rem; padding: 1.25rem; text-align: center; }
+    .info-label { font-size: 0.75rem; color: #6b7280; margin-bottom: 0.25rem; }
+    .info-value { font-size: 1rem; font-weight: 600; color: white; }
+    .footer { border-top: 1px solid #1f2937; padding: 3rem 0; text-align: center; }
+    .footer p { font-size: 0.875rem; color: #6b7280; }
+    .footer p + p { margin-top: 0.5rem; }
+    .back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: #9ca3af; font-size: 0.875rem; margin-bottom: 1rem; transition: color 0.2s; }
+    .back-link:hover { color: white; }
+    .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">
+        <span class="logo-icon">🧭</span>
+        <span class="logo-text">AI佩恩</span>
+      </a>
+      <nav style="display:flex;align-items:center;gap:1.5rem;font-size:0.875rem;color:#9ca3af;">
+        <a href="/#categories" style="transition:color 0.2s;" onmouseover="this.style.color='white'" onmouseout="this.style.color='#9ca3af'">分类</a>
+        <a href="/#featured" style="transition:color 0.2s;" onmouseover="this.style.color='white'" onmouseout="this.style.color='#9ca3af'">精选</a>
+        <a href="/#all" style="transition:color 0.2s;" onmouseover="this.style.color='white'" onmouseout="this.style.color='#9ca3af'">全部工具</a>
+        <a href="/#submit" style="background:#f59e0b;color:black;padding:0.5rem 1rem;border-radius:0.5rem;font-size:0.875rem;font-weight:600;">提交工具</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="breadcrumb">
+      <a href="/">首页</a>
+      <span class="sep">›</span>
+      <a href="/#cat-productivity">AI 效率</a>
+      <span class="sep">›</span>
+      <span class="current">Reclaim.ai</span>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-top">
+        <span class="hero-emoji">⚡</span>
+        <div class="hero-info">
+          <h1 class="hero-title">Reclaim.ai</h1>
+          <span class="hero-category">AI 效率</span>
+          <p class="hero-desc">AI日程管理工具，智能安排会议和专注时间</p>
+          <div class="tags">
+            <span class="rounded-lg bg-gray-800 px-3 py-1 text-sm text-gray-300">日程</span>
+              <span class="rounded-lg bg-gray-800 px-3 py-1 text-sm text-gray-300">会议</span>
+              <span class="rounded-lg bg-gray-800 px-3 py-1 text-sm text-gray-300">效率</span>
+          </div>
+          <div class="price-box">💰 免费/Pro $10/月</div>
+          <br/><br/>
+          <a href="https://reclaim.ai" target="_blank" rel="noopener noreferrer" class="cta-btn">🚀 访问 Reclaim.ai</a>
+        </div>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-label">分类</div>
+          <div class="info-value">⚡ AI 效率</div>
+        </div>
+        <div class="info-card">
+          <div class="info-label">价格</div>
+          <div class="info-value">免费/Pro $10/月</div>
+        </div>
+        <div class="info-card">
+          <div class="info-label">标签数</div>
+          <div class="info-value">3 个</div>
+        </div>
+        <div class="info-card">
+          <div class="info-label">推荐等级</div>
+          <div class="info-value">✅ 推荐</div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="section">
+      <h2 class="section-title">🔗 同类AI 效率工具推荐</h2>
+      <div class="grid">
+        
+            <a href="/tool/gamma/" class="group flex flex-col rounded-xl border border-gray-800 bg-[#141414] p-5 transition hover:border-gray-700 hover:bg-[#1a1a1a] hover:-translate-y-0.5">
+              <div class="mb-3 flex items-center gap-3">
+                <span class="text-2xl">⚡</span>
+                <h3 class="text-base font-bold text-white group-hover:text-amber-400 transition">Gamma</h3>
+              </div>
+              <p class="mb-4 line-clamp-2 flex-1 text-sm leading-relaxed text-gray-400">AI生成PPT和演示文稿，几秒钟出专业幻灯片</p>
+              <div class="flex items-center justify-between">
+                <div class="flex flex-wrap gap-1.5">
+                  <span class="rounded bg-gray-800 px-2 py-0.5 text-[11px] text-gray-400">PPT</span><span class="rounded bg-gray-800 px-2 py-0.5 text-[11px] text-gray-400">演示</span>
+                </div>
+                <span class="text-xs text-gray-500">免费/Plus $10/月</span>
+              </div>
+            </a>
+            <a href="/tool/tome/" class="group flex flex-col rounded-xl border border-gray-800 bg-[#141414] p-5 transition hover:border-gray-700 hover:bg-[#1a1a1a] hover:-translate-y-0.5">
+              <div class="mb-3 flex items-center gap-3">
+                <span class="text-2xl">⚡</span>
+                <h3 class="text-base font-bold text-white group-hover:text-amber-400 transition">Tome</h3>
+              </div>
+              <p class="mb-4 line-clamp-2 flex-1 text-sm leading-relaxed text-gray-400">AI演示文稿生成工具，自动排版和设计，一键生成汇报</p>
+              <div class="flex items-center justify-between">
+                <div class="flex flex-wrap gap-1.5">
+                  <span class="rounded bg-gray-800 px-2 py-0.5 text-[11px] text-gray-400">演示</span><span class="rounded bg-gray-800 px-2 py-0.5 text-[11px] text-gray-400">汇报</span>
+                </div>
+                <span class="text-xs text-gray-500">免费/Pro $16/月</span>
+              </div>
+            </a>
+            <a href="/tool/otter-ai/" class="group flex flex-col rounded-xl border border-gray-800 bg-[#141414] p-5 transition hover:border-gray-700 hover:bg-[#1a1a1a] hover:-translate-y-0.5">
+              <div class="mb-3 flex items-center gap-3">
+                <span class="text-2xl">⚡</span>
+                <h3 class="text-base font-bold text-white group-hover:text-amber-400 transition">Otter.ai</h3>
+              </div>
+              <p class="mb-4 line-clamp-2 flex-1 text-sm leading-relaxed text-gray-400">AI会议记录工具，实时转写、自动总结、生成待办事项</p>
+              <div class="flex items-center justify-between">
+                <div class="flex flex-wrap gap-1.5">
+                  <span class="rounded bg-gray-800 px-2 py-0.5 text-[11px] text-gray-400">会议</span><span class="rounded bg-gray-800 px-2 py-0.5 text-[11px] text-gray-400">转写</span>
+                </div>
+                <span class="text-xs text-gray-500">免费/Pro $17/月</span>
+              </div>
+            </a>
+            <a href="/tool/mem-ai/" class="group flex flex-col rounded-xl border border-gray-800 bg-[#141414] p-5 transition hover:border-gray-700 hover:bg-[#1a1a1a] hover:-translate-y-0.5">
+              <div class="mb-3 flex items-center gap-3">
+                <span class="text-2xl">⚡</span>
+                <h3 class="text-base font-bold text-white group-hover:text-amber-400 transition">Mem AI</h3>
+              </div>
+              <p class="mb-4 line-clamp-2 flex-1 text-sm leading-relaxed text-gray-400">AI笔记工具，自动整理和关联笔记内容，智能搜索</p>
+              <div class="flex items-center justify-between">
+                <div class="flex flex-wrap gap-1.5">
+                  <span class="rounded bg-gray-800 px-2 py-0.5 text-[11px] text-gray-400">笔记</span><span class="rounded bg-gray-800 px-2 py-0.5 text-[11px] text-gray-400">知识管理</span>
+                </div>
+                <span class="text-xs text-gray-500">免费/Pro $15/月</span>
+              </div>
+            </a>
+      </div>
+    </section>
+
+    <section class="section" style="text-align:center;padding:3rem 0;">
+      <a href="/" class="back-link">← 返回全部 AI 工具</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 AI佩恩 (aipeien.cn) - 发现最好用的AI工具</p>
+    <p>Made with 💰 by 搞钱公司</p>
+  </footer>
+</body>
+</html>
