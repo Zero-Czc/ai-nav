@@ -181,7 +181,7 @@ export default function Home() {
       <header className="border-b border-[#2a2a2a]">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 text-xl font-bold">
-            <span>🧭</span>
+            <img src="/logo.svg" alt="AI佩恩" className="w-8 h-8" />
             <span>AI佩恩</span>
           </Link>
           <nav className="flex gap-6">
