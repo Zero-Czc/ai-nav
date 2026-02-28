@@ -232,7 +232,6 @@ export default function Home() {
               className="bg-[#1e1e1e] hover:bg-[#262626] rounded-lg p-4 transition"
             >
               <div className="flex items-center gap-2 mb-2">
-                <span>⭐</span>
                 <span className="text-xl">{tool.icon}</span>
                 <span className="font-bold">{tool.name}</span>
               </div>
